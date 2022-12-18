@@ -1,0 +1,21 @@
+button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background-color: hsl(158, 36%, 37%);
+    width: 18.375rem;
+    padding: 1rem 0;
+    border-radius: 0.375rem;
+    cursor: pointer;
+
+    img{
+        display: inline-block;
+        margin-right: 0.75rem;
+    }
+
+    @media screen and (min-width: 1025px) {
+        width: 14.75rem;
+        
+    }
+}
